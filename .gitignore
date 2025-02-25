@@ -17,3 +17,7 @@ logs/
 *.tmp
 *.pkl
 __pycache__/
+
+.env
+chatbot-env/
+*.pyc
