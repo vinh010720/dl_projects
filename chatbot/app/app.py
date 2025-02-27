@@ -4,9 +4,9 @@ from fastapi.templating import Jinja2Templates
 from dotenv import load_dotenv
 import os 
 
-from app.models import ChatRequest
+from .models import ChatRequest
 from together import Together
-from app.chat_handler import get_chat_response  
+from .chat_handler import get_chat_response  
 from fastapi.staticfiles import StaticFiles
 
 
